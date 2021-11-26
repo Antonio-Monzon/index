@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_layout</title>
+
+</head>
+<style>
+
+    html{
+        background-color: rgb(255, 168, 61);
+    }
+    h2{
+        color: cornflowerblue;
+    }
+.div{
+    background-color:chartreuse
+}
+.ejemplo_overflow{
+    width: 45%;
+    height: 180px; 
+    background-color: rgb(248, 248, 248);
+    overflow-y:auto;
+    overflow-x:hidden ;
+    font-size: 2em;
+    font-weight: bolder;
+    line-height: 1.5em;
+    border:dotted;
+
+}
+#tesla{
+    margin: 50px;;
+    border: 15px solid rgb(253, 0, 0) ;
+}
+#brutal{
+    width: 300px;
+    margin:50px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            
+            border: 10px dashed rgb(255, 0, 0);
+}
+
+</style>
+<body>
+    <h1>===============CSS_Diseño(A.M)===============</h1>
+    <p>by Antonio Monzón</p>
+    Con estas propiedades podemos estilizar los bloques que forman la página
+<p> <em>En esta página explicaremos las funciones de las etiquetas<br></em>
+<strong>SPAN-DIV-OVERFLOW-BOX MODEL-POSITIONING</strong></p>
+   
+   <h2>Etiqueta SPAN</h2>
+   <p>permite agrupar varios elementos en línea seguidos dentro de un mismo bloque</p>
+   
+   En este ejemplo<u>:<br> djfhfdbghjfdgbvhdvgfvgf<br>dfjnhdjgfudgfyudgfdsjgfsdgfsdjh<br>kjsfbsdvfsdjkfsgfvgfkgfvfsdjkfsd<br>
+   subrayaremos todo este bloque de texto</u>
+   
+   
+    <br><h2>Etiqueta DIV</h2>
+
+    <p> Sirve para crear secciones o agrupar contenidos.<br>
+        <div class="div">
+    <u> Ejemplo de bloque de texto  con fondo</u>:<br>Tecnología significa aplicación sistemática del conocimiento científico (u otro conocimiento organizado) a tareas prácticas.<br> Su consecuencia más importante es una función de la división y subdivisión de cada una de esas tareas <br>en partes o fases componentes</p>
+    </div>
+
+<br><h2>Etiqueta Overflow</h2>
+<div class="ejemplo_overflow">
+<p>Lo usamos para evitar quelos textos<br> se sobre salgan o se desvorden añadiendo<br>una barra de desplazamiento</p></div>
+<br>
+<h2>Box model</h2>
+<p>Básicamente, es un módulo CSS que define cajas rectangulares.</p>
+<img src="imagenes/modelo_caja.png">
+<p>Dentro del boxmodel nos encontramos: <u>content, padding, border, margin</u></p>
+<br>
+<h2>Padding</h2>
+<p> Marca el margen para los 4 lados, es más práctico para evitar ir lado por lado con las otras propiedades</p>
+<br>
+
+<h2>border</h2>
+La usamos para añadir valores del ancho, el estilo y color de borde de los elementos, solo puede establecer 4 bordes y solo un ancho y estilo de borde.
+<br>
+<h2>Margin</h2>
+<p>Marca el espacio de relleno de los lados de un elemento. Su área es el esapcio entre el contenido y su borde</p>
+<br><p>Ejemplo General:</p>
+<img id="tesla" src="imagenes/tesla.jpeg" height="300" width="400px">
+<img id="brutal" src="imagenes/brutal.jpg " height="300" width="400px">
+
+
+
+
+
+
+</body>
+</html>
